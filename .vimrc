@@ -40,6 +40,7 @@ au BufNewFile,BufRead *.py
     \ syntax on
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] 
+let g:SimpylFold_fold_import = 0
 
 set clipboard=unnamed
 let mapleader=" "
